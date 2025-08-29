@@ -1879,12 +1879,12 @@ textarea.form-input::-webkit-resizer { display: none; }
 
   .timeline-text { max-width: 700px; }
   /* اخفاء سكشن الPortfolio*/
-  article.portfolio {
-    display: none !important;
-  }
-  .clients {
-    display: none !important;
-  }
+ /* Hide Clients and Portfolio in all devices */
+.clients,
+.portfolio {
+  display: none !important;
+}
+
   
   
 }
